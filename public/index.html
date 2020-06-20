@@ -3,12 +3,47 @@
   <head lang="en">
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Roshamb</title>
+    <title>Roshambo</title>
     <link rel="shortcut icon" href="/favicon.ico" />
     <link rel="stylesheet" href="/screen.css" />
   </head>
   <body>
-    <h1 class="hello-world"></h1>
+    <section class="game">
+      <div class="header">
+        <h1><strong>Rock Paper Scissors</strong></h1>
+      </div>
+      <main class="play">
+        <div class="start">
+          <button id="play">Play!</button>
+        </div>
+
+        <div class="score">
+          <div class="player1">
+            <h2>Player 1</h2>
+            <p id="playerOneScore">0</p>
+            <div class="player1options">
+              <button id="playerOneRock">Rock</button>
+              <button id="playerOnePaper">Paper</button>
+              <button id="playerOneScissors">Scissors</button>
+            </div>
+          </div>
+          <img
+            src="https://www.playworks.org/wisconsin/wp-content/uploads/sites/23/2019/10/RPS-hi-res-graphic.png"
+            height="100"
+            width="250"
+          />
+          <div class="player2">
+            <h2>Player 2</h2>
+            <p id="playerTwoScore">0</p>
+            <div class="player2options">
+              <button id="playerTwoRock">Rock</button>
+              <button id="playerTwoPaper">Paper</button>
+              <button id="playerTwoScissors">Scissors</button>
+            </div>
+          </div>
+        </div>
+      </main>
+    </section>
     <script src="/main.js" charset="utf-8"></script>
   </body>
 </html>
