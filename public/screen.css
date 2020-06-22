@@ -89,3 +89,7 @@ section {
   font-size: 16px;
   background-color: rgb(90, 132, 209);
 }
+
+.hide {
+  display: none;
+}
